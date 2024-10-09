@@ -171,6 +171,7 @@ nav{
 
 .plan li{
     list-style: none;
+    font-size:medium;
     height: 50px;
     line-height: 50px;
     background-color: #e8e9ea;
@@ -439,7 +440,7 @@ footer{
     }
 }
 
-@media (max-width: 400px){
+@media (max-width:400px){
     .logo{
         width: 35px;
         margin-top: 15px;
