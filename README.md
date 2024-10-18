@@ -14,3 +14,7 @@ Programa:
 1. Visual Studio Code
 
 Clone: https://github.com/techjotape/CapivaNET.git
+
+
+
+OBS: João Pedro é o único autor, porém Everson Faria aparece como contribuidor por conta do primeiro commit ter cito feito no computador dele
