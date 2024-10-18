@@ -354,16 +354,43 @@ cursor: pointer;
     color:#fff;
 }
 
-/*footer*/
 
-
-footer{
+/*about-us*/
+/*
+.about-us-container h2{
     text-align: center;
-    font-weight: bold;
-    margin: 20px 0 100px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 42px;
+    margin-bottom: 15px;
+};
 
+.about-us-container p{
+    color:#000;
+    font-size: 25px;
+}
+*/
+
+.about-us-container {
+    width: 66%; /* Ocupa um terço da largura da tela */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    text-align: center; /* Centraliza o texto dentro do container */
+    padding: 20px; /* Adiciona espaçamento interno */
 }
 
+.about-us-container h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 42px;
+}
+
+.about-us-container p {
+    color: #000;
+    font-size: 20px;
+    line-height: 1.5;
+
+
+}
 /*Responsividade*/
 
 /*small laptops*/
@@ -388,7 +415,7 @@ footer{
 }
 
 /*mobile 576px*/
-@media (max-width: 576px){
+ @media (max-width: 576px){
     .navbar-items li{
         font-size: 12px;
         margin-left: 10px;
@@ -427,20 +454,20 @@ footer{
     .searchaddress-container input[type="text"]{
         width: 100%;
     }
-}
+ }
 
-/*celulares menores*/
-@media (max-width: 500px){
-    .navbar-items li{
-        font-size: 10px;
-        margin-left: 13px;
+    /*celulares menores*/
+    @media (max-width: 500px){
+        .navbar-items li{
+            font-size: 10px;
+            margin-left: 13px;
+        }
+        .main-banner p{
+            font-size: 24px;
+        }
     }
-    .main-banner p{
-        font-size: 24px;
-    }
-}
 
-@media (max-width:400px){
+ @media (max-width:400px){
     .logo{
         width: 35px;
         margin-top: 15px;
@@ -454,4 +481,4 @@ footer{
     .main-banner p{
         font-size: 20px;
     }
-}
+ }
